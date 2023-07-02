@@ -12,4 +12,5 @@ serde = { version="1.0.164", features = ["derive"] }
 tokio = { version = "1.29.1", features = ["macros", "rt-multi-thread"] }
 tower = "0.4.13"
 uuid = { version = "1.4.0", features = ["serde", "v4"] }
-
+diesel = { version = "2.1.0", features = ["postgres"] }
+dotenvy = "0.15"
